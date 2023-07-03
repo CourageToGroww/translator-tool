@@ -1,0 +1,35 @@
+{
+	"name": "svel-app",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "prettier --plugin-search-dir . --check . && eslint .",
+		"format": "prettier --plugin-search-dir . --write ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^1.0.0-next.90",
+		"@sveltejs/kit": "^1.0.0-next.587",
+		"@unocss/preset-mini": "^0.53.4",
+		"@unocss/preset-tagify": "^0.53.4",
+		"@unocss/preset-wind": "^0.53.4",
+		"eslint": "^8.28.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-svelte3": "^4.0.0",
+		"prettier": "^2.8.0",
+		"prettier-plugin-svelte": "^2.8.1",
+		"svelte": "^3.54.0",
+		"unocss": "^0.53.4",
+		"vite": "^4.0.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"@unocss/extractor-svelte": "^0.53.4",
+		"@unocss/preset-uno": "^0.53.4",
+		"@unocss/svelte-scoped": "^0.53.4",
+		"@unocss/vite": "^0.53.4",
+		"svelte-preprocess": "^5.0.4"
+	}
+}

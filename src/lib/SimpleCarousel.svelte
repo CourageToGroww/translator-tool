@@ -34,6 +34,12 @@
     img.classList.remove('fade-out');
     img.classList.add('fade-in');
   }
+
+/* Add this to add component to page
+<div class="absolute z-0 inset-0">
+  <SimpleCarousel/>
+</div>
+*/
 </script>
 
 

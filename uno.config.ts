@@ -59,7 +59,7 @@ export default defineConfig({
     [/^glass-effect$/, () => ({
       'background': 'rgba(0, 0, 0, .20)', //the last number is the opacity
       'box-shadow': '0 4px 6px 0 rgba(0, 0, 0, 0.07)',
-      'shadow-lg': '0 25px 50px -12px rgba(0, 0, 0, 0.25)',
+      'shadow-xl': '0 25px 50px -12px rgba(0, 0, 0, 0.25)',
 
     })],
   ],

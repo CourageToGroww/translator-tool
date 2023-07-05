@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+@font-face {
+    font-family: 'Your Font Name';
+    src: url('/fonts/your-font.woff2') format('woff2'),
+         url('/fonts/your-font.woff') format('woff'),
+         url('/fonts/your-font.ttf') format('truetype');
+    /* Add more src lines if you have additional font formats */
+    /* Adjust the file paths based on your project structure */
+  }

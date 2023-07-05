@@ -12,6 +12,8 @@
       let duckduckGoSearchUrl = null; 
       let youComSearchUrl = null;
       const openAIKey = import.meta.env.VITE_OPENAI_API_KEY; 
+
+      
   
       async function translateTextThai() {
         const response = await fetch('https://api.openai.com/v1/chat/completions', {
@@ -131,22 +133,11 @@
     display: flex;
     justify-content: space-between;
   }
-  .carousel-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-  }
 </style>
 
 <div class="relative">
-  <div class="carousel-container">
-    <SimpleCarousel />
-  </div>
   <main class="relative z-20  glass-effect  py-10 min-h-screen">
-    <div class=" z-10 glass-effect text-gray-3 text-center rounded p-10 rounded mx-auto my-auto w-1/2">Cloud Quest
+    <div class=" z-10 glass-effect text-gray-3 text-center rounded p-10 rounded mx-auto my-auto w-1/2">Prompt Quest
       <p class="mb-4 text-2xl">{translation}</p>
 
         <form class="mt-5">

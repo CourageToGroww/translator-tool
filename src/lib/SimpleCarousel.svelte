@@ -52,7 +52,7 @@
         alt="Background"
         class="{index === currentImageIndex}"
         on:load={handleImageLoad}
-        style="width: 100%; height: 100%; object-fit: cover;"
+        style="width: 100%; height: 100%; object-fit: cover; z--1;"
       />
     {/if}
   {/each}

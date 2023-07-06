@@ -30,6 +30,7 @@
 		"@unocss/preset-uno": "^0.53.4",
 		"@unocss/svelte-scoped": "^0.53.4",
 		"@unocss/vite": "^0.53.4",
+		"gsap": "^3.12.2",
 		"openai": "^3.3.0",
 		"svelte-preprocess": "^5.0.4"
 	}

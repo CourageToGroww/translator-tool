@@ -260,10 +260,36 @@
 				</button>
 				<button class="btn-glass-effect py-2 px-4 rounded transition" />
 				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition">
+					<img
+						src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg"
+						srcset="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 2x, https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 3x"
+						width="20"
+						height="15"
+						alt="Microsoft Azure"
+					/>
+				</button>
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition">
+					<img
+						src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg"
+						srcset="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 2x, https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 3x"
+						width="20"
+						height="15"
+						alt="Microsoft Azure"
+					/>
+				</button>
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
 				<button class="btn-glass-effect py-2 px-4 rounded transition" />
 			</div>
 
 			<div class="right-buttons-panel rounded pt-5">
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
 				<button class="btn-glass-effect py-2 px-4 rounded transition" />
 				<button class="btn-glass-effect py-2 px-4 rounded transition" />
 				<button class="btn-glass-effect py-2 px-4 rounded transition" />

@@ -11,21 +11,42 @@
 			href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
 			rel="stylesheet"
 		/>
-		<title>Prompt Quest</title>
+		<title>Prompt ReQuest</title>
 		%sveltekit.head%
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
 	</head>
-	<body>
+	<body style="background: #ff8d33">
 		<div>%sveltekit.body%</div>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
 		<script>
-			gsap.to('body', {
-				duration: 5,
-				background: 'radial-gradient(ellipse at center, #FF8D33 0%, #FF5733 100%)',
-				repeat: -1,
-				yoyo: true
-			});
+			var tl = gsap.timeline({ repeat: -1, yoyo: true });
+
+			tl.to('body', {
+				duration: 1,
+				background: 'radial-gradient(ellipse at center, #FF0000 100%, #FF5733 100%)',
+				ease: 'power1.inOut'
+			})
+				.to('body', {
+					duration: 1,
+					background: 'radial-gradient(ellipse at center, #0000FF 0%, #00008B 100%)', // Darker blue
+					ease: 'power1.inOut'
+				})
+				.to('body', {
+					duration: 1,
+					background: 'radial-gradient(ellipse at center, #00FF00 0%, #FF4500 100%)', // yellowish green and red
+					ease: 'power1.inOut'
+				})
+				.to('body', {
+					duration: 1,
+					background: 'radial-gradient(ellipse at center, #FF00FF 0%, #FF5733 100%)',
+					ease: 'power1.inOut'
+				})
+				.to('body', {
+					duration: 1,
+					background: 'radial-gradient(ellipse at center, #800080 0%, #4B0082 100%)', // Vivid purple
+					ease: 'power1.inOut'
+				});
 		</script>
 	</body>
 </html>

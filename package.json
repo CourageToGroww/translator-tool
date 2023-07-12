@@ -32,6 +32,8 @@
 		"@unocss/vite": "^0.53.4",
 		"gsap": "^3.12.2",
 		"openai": "^3.3.0",
-		"svelte-preprocess": "^5.0.4"
+		"svelte-preprocess": "^5.0.4",
+		"svelte-three": "^0.1.2",
+		"three": "^0.154.0"
 	}
 }

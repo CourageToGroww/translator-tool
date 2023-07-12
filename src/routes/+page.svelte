@@ -124,264 +124,13 @@
 	//____________________________________________CLOUD FUNCTIONS FUNCTIONS_____________________MOVE TO ANOTHER FILE
 </script>
 
-<main class="relative z-20 glass-effect text-gray-7 py-10 min-h-screen">
+<main class="relative z-20 glass-effect py-10 min-h-screen">
 	<div class=" glass-effect text-center text-gray-100 rounded p-10 rounded mx-auto my-auto w-1/2">
-		Prompt Quest
-		<div class=" glass effect rounded"><p class="text-center mb-4 text-2xl">{translation}</p></div>
+		Prompt ReQuest
 
-		<form class="mt-5">
-			<div class="mb-10">
-				<input
-					id="text-input"
-					bind:value={text}
-					placeholder="Enter Text Here"
-					class="w-full text-center p-2 border glass-effect w rounded text-gray-00 mb-3"
-				/>
-			</div>
-		</form>
-
-		<div class="button-container">
-			<div class="left-buttons-panel pt-5">
-				<button class="btn-glass-effect py-2 px-4 rounded transition">
-					<img
-						src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg"
-						srcset="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 2x, https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 3x"
-						width="20"
-						height="15"
-						alt="Microsoft Azure"
-					/>
-				</button>
-
-				<button class="btn-glass-effect py-2 px-4 rounded transition">
-					<img
-						src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"
-						srcset="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg 2x, https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg 3x"
-						width="20"
-						height="15"
-						alt="AWS"
-					/>
-				</button>
-
-				<button class="btn-glass-effect py-2 px-4 rounded transition">
-					<img
-						src="https://www.svgrepo.com/show/448223/gcp.svg"
-						srcset="https://www.svgrepo.com/show/448223/gcp.svg 2x, https://www.svgrepo.com/show/448223/gcp.svg"
-						width="20"
-						height="15"
-						alt="GCP"
-					/>
-				</button>
-
-				<button class="btn-glass-effect py-2 px-4 rounded transition">
-					<img
-						src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg"
-						srcset="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 2x, https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 3x"
-						width="20"
-						height="15"
-						alt="Microsoft Azure"
-					/>
-				</button>
-
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition">
-					<img
-						src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg"
-						srcset="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 2x, https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 3x"
-						width="20"
-						height="15"
-						alt="Microsoft Azure"
-					/>
-				</button>
-
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-
-				<button class="btn-glass-effect py-2 px-4 rounded transition">
-					<img
-						src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg"
-						srcset="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 2x, https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 3x"
-						width="20"
-						height="15"
-						alt="Microsoft Azure"
-					/>
-				</button>
-
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-
-				<button class="btn-glass-effect py-2 px-4 rounded transition">
-					<img
-						src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg"
-						srcset="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 2x, https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 3x"
-						width="20"
-						height="15"
-						alt="Microsoft Azure"
-					/>
-				</button>
-
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-
-				<button class="btn-glass-effect py-2 px-4 rounded transition">
-					<img
-						src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg"
-						srcset="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 2x, https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 3x"
-						width="20"
-						height="15"
-						alt="Microsoft Azure"
-					/>
-				</button>
-
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-
-				<button class="btn-glass-effect py-2 px-4 rounded transition">
-					<img
-						src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg"
-						srcset="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 2x, https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 3x"
-						width="20"
-						height="15"
-						alt="Microsoft Azure"
-					/>
-				</button>
-
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-
-				<button class="btn-glass-effect py-2 px-4 rounded transition">
-					<img
-						src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg"
-						srcset="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 2x, https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 3x"
-						width="20"
-						height="15"
-						alt="Microsoft Azure"
-					/>
-				</button>
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition">
-					<img
-						src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg"
-						srcset="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 2x, https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 3x"
-						width="20"
-						height="15"
-						alt="Microsoft Azure"
-					/>
-				</button>
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition">
-					<img
-						src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg"
-						srcset="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 2x, https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 3x"
-						width="20"
-						height="15"
-						alt="Microsoft Azure"
-					/>
-				</button>
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-			</div>
-
-			<div class="right-buttons-panel rounded pt-5">
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-				<button class="btn-glass-effect py-2 px-4 rounded transition" />
-			</div>
+		<div class=" glass-effect rounded w-200 h-120 ml-20">
+			<p class="text-center pt-50 text-2xl">{translation}</p>
 		</div>
-		{#if responseData}
-			<span class=""> Browser:</span>
-			<div class="mb-5 rounded">
-				<button
-					onclick="window.open('{googleSearchUrl}', '_blank')"
-					class="  py-2 px-4 rounded glass-effect"
-				>
-					<img
-						src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
-						alt="Google Logo"
-						width="20"
-						height="15"
-					/>
-				</button>
-				<button
-					onclick="window.open('{duckduckGoSearchUrl}', '_blank')"
-					class="  py-2 px-4 rounded glass-effect"
-				>
-					<img
-						src="https://handwiki.org/wiki/images/8/88/DuckDuckGo_logo.svg"
-						alt="DuckDuckGo Logo"
-						width="20"
-						height="15"
-					/>
-				</button>
-				<button
-					onclick="window.open('{youComSearchUrl}', '_blank')"
-					class=" py-2 px-4 rounded glass-effect"
-				>
-					<img
-						src="https://you.com/images/ydc-logo-lightdarkmode.svg"
-						alt="You.com Logo"
-						width="20"
-						height="15"
-					/>
-				</button>
-			</div>
-			<div class="">
-				<p>Dorks:</p>
-				<button class="btn-glass-effect py-2 px-4 rounded transition">
-					<img
-						src="https://you.com/images/ydc-logo-lightdarkmode.svg"
-						alt="You.com Logo"
-						width="20"
-						height="15"
-					/>
-				</button>
-				<button class="btn-glass-effect py-2 px-4 rounded transition">
-					<img
-						src="https://you.com/images/ydc-logo-lightdarkmode.svg"
-						alt="You.com Logo"
-						width="20"
-						height="15"
-					/>
-				</button>
-				<button class="btn-glass-effect py-2 px-4 rounded transition">
-					<img
-						src="https://you.com/images/ydc-logo-lightdarkmode.svg"
-						alt="You.com Logo"
-						width="20"
-						height="15"
-					/>
-				</button>
-			</div>
-		{/if}
 
 		<p class="text-center ps-font mt-15">Languages</p>
 		<button
@@ -423,6 +172,460 @@
 				alt="China"
 			/>
 		</button>
+		<form class="mt-5">
+			<div class="mb-10">
+				<input
+					id="text-input"
+					bind:value={text}
+					placeholder="Enter Text Here"
+					class="w-full text-center p-2 border glass-effect w rounded text-gray-400 mb-3"
+				/>
+			</div>
+		</form>
+		<div class="button-container">
+			<div class="left-buttons-panel pt-5 mb-20">
+				<button class="btn-glass-effect py-2 px-4 rounded transition">
+					<img
+						src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg"
+						srcset="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 2x, https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 3x"
+						width="20"
+						height="15"
+						alt="Microsoft Azure"
+					/>
+				</button>
+
+				<button class="btn-glass-effect py-2 px-4 rounded transition">
+					<img
+						src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"
+						srcset="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg 2x, https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg 3x"
+						width="20"
+						height="15"
+						alt="AWS"
+					/>
+				</button>
+
+				<button class="btn-glass-effect py-2 px-4 rounded transition">
+					<img
+						src="https://www.svgrepo.com/show/448223/gcp.svg"
+						srcset="https://www.svgrepo.com/show/448223/gcp.svg 2x, https://www.svgrepo.com/show/448223/gcp.svg"
+						width="20"
+						height="15"
+						alt="GCP"
+					/>
+				</button>
+
+				<button class="btn-glass-effect py-2 px-4 rounded transition">
+					<img
+						src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg"
+						srcset="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 2x, https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 3x"
+						width="20"
+						height="15"
+						alt="Microsoft Azure"
+					/>
+				</button>
+
+				<button class="btn-glass-effect py-2 px-4 rounded transition">
+					<img
+						src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"
+						srcset="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg 2x, https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg 3x"
+						width="20"
+						height="15"
+						alt="AWS"
+					/>
+				</button>
+				<button class="btn-glass-effect py-2 px-4 rounded transition">
+					<img
+						src="https://www.svgrepo.com/show/448223/gcp.svg"
+						srcset="https://www.svgrepo.com/show/448223/gcp.svg 2x, https://www.svgrepo.com/show/448223/gcp.svg"
+						width="20"
+						height="15"
+						alt="GCP"
+					/>
+				</button>
+
+				<button class="btn-glass-effect py-2 px-4 rounded transition">
+					<img
+						src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg"
+						srcset="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 2x, https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 3x"
+						width="20"
+						height="15"
+						alt="Microsoft Azure"
+					/>
+				</button>
+
+				<button class="btn-glass-effect py-2 px-4 rounded transition">
+					<img
+						src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"
+						srcset="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg 2x, https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg 3x"
+						width="20"
+						height="15"
+						alt="AWS"
+					/>
+				</button>
+				<button class="btn-glass-effect py-2 px-4 rounded transition">
+					<img
+						src="https://www.svgrepo.com/show/448223/gcp.svg"
+						srcset="https://www.svgrepo.com/show/448223/gcp.svg 2x, https://www.svgrepo.com/show/448223/gcp.svg"
+						width="20"
+						height="15"
+						alt="GCP"
+					/>
+				</button>
+
+				<button class="btn-glass-effect py-2 px-4 rounded transition">
+					<img
+						src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg"
+						srcset="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 2x, https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 3x"
+						width="20"
+						height="15"
+						alt="Microsoft Azure"
+					/>
+				</button>
+
+				<button class="btn-glass-effect py-2 px-4 rounded transition">
+					<img
+						src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"
+						srcset="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg 2x, https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg 3x"
+						width="20"
+						height="15"
+						alt="AWS"
+					/>
+				</button>
+				<button class="btn-glass-effect py-2 px-4 rounded transition">
+					<img
+						src="https://www.svgrepo.com/show/448223/gcp.svg"
+						srcset="https://www.svgrepo.com/show/448223/gcp.svg 2x, https://www.svgrepo.com/show/448223/gcp.svg"
+						width="20"
+						height="15"
+						alt="GCP"
+					/>
+				</button>
+
+				<button class="btn-glass-effect py-2 px-4 rounded transition">
+					<img
+						src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg"
+						srcset="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 2x, https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 3x"
+						width="20"
+						height="15"
+						alt="Microsoft Azure"
+					/>
+				</button>
+
+				<button class="btn-glass-effect py-2 px-4 rounded transition">
+					<img
+						src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"
+						srcset="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg 2x, https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg 3x"
+						width="20"
+						height="15"
+						alt="AWS"
+					/>
+				</button>
+				<button class="btn-glass-effect py-2 px-4 rounded transition">
+					<img
+						src="https://www.svgrepo.com/show/448223/gcp.svg"
+						srcset="https://www.svgrepo.com/show/448223/gcp.svg 2x, https://www.svgrepo.com/show/448223/gcp.svg"
+						width="20"
+						height="15"
+						alt="GCP"
+					/>
+				</button>
+
+				<button class="btn-glass-effect py-2 px-4 rounded transition">
+					<img
+						src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg"
+						srcset="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 2x, https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 3x"
+						width="20"
+						height="15"
+						alt="Microsoft Azure"
+					/>
+				</button>
+
+				<button class="btn-glass-effect py-2 px-4 rounded transition">
+					<img
+						src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"
+						srcset="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg 2x, https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg 3x"
+						width="20"
+						height="15"
+						alt="AWS"
+					/>
+				</button>
+				<button class="btn-glass-effect py-2 px-4 rounded transition">
+					<img
+						src="https://www.svgrepo.com/show/448223/gcp.svg"
+						srcset="https://www.svgrepo.com/show/448223/gcp.svg 2x, https://www.svgrepo.com/show/448223/gcp.svg"
+						width="20"
+						height="15"
+						alt="GCP"
+					/>
+				</button>
+
+				<button class="btn-glass-effect py-2 px-4 rounded transition">
+					<img
+						src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg"
+						srcset="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 2x, https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 3x"
+						width="20"
+						height="15"
+						alt="Microsoft Azure"
+					/>
+				</button>
+
+				<button class="btn-glass-effect py-2 px-4 rounded transition">
+					<img
+						src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"
+						srcset="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg 2x, https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg 3x"
+						width="20"
+						height="15"
+						alt="AWS"
+					/>
+				</button>
+
+				<button class="btn-glass-effect py-2 px-4 rounded transition">
+					<img
+						src="https://www.svgrepo.com/show/448223/gcp.svg"
+						srcset="https://www.svgrepo.com/show/448223/gcp.svg 2x, https://www.svgrepo.com/show/448223/gcp.svg"
+						width="20"
+						height="15"
+						alt="GCP"
+					/>
+				</button>
+
+				<button class="btn-glass-effect py-2 px-4 rounded transition">
+					<img
+						src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg"
+						srcset="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 2x, https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 3x"
+						width="20"
+						height="15"
+						alt="Microsoft Azure"
+					/>
+				</button>
+				<button class="btn-glass-effect py-2 px-4 rounded transition">
+					<img
+						src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"
+						srcset="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg 2x, https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg 3x"
+						width="20"
+						height="15"
+						alt="AWS"
+					/>
+				</button>
+
+				<button class="btn-glass-effect py-2 px-4 rounded transition">
+					<img
+						src="https://www.svgrepo.com/show/448223/gcp.svg"
+						srcset="https://www.svgrepo.com/show/448223/gcp.svg 2x, https://www.svgrepo.com/show/448223/gcp.svg"
+						width="20"
+						height="15"
+						alt="GCP"
+					/>
+				</button>
+
+				<button class="btn-glass-effect py-2 px-4 rounded transition">
+					<img
+						src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg"
+						srcset="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 2x, https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 3x"
+						width="20"
+						height="15"
+						alt="Microsoft Azure"
+					/>
+				</button>
+				<button class="btn-glass-effect py-2 px-4 rounded transition">
+					<img
+						src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"
+						srcset="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg 2x, https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg 3x"
+						width="20"
+						height="15"
+						alt="AWS"
+					/>
+				</button>
+
+				<button class="btn-glass-effect py-2 px-4 rounded transition">
+					<img
+						src="https://www.svgrepo.com/show/448223/gcp.svg"
+						srcset="https://www.svgrepo.com/show/448223/gcp.svg 2x, https://www.svgrepo.com/show/448223/gcp.svg"
+						width="20"
+						height="15"
+						alt="GCP"
+					/>
+				</button>
+
+				<button class="btn-glass-effect py-2 px-4 rounded transition">
+					<img
+						src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg"
+						srcset="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 2x, https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg 3x"
+						width="20"
+						height="15"
+						alt="Microsoft Azure"
+					/>
+				</button>
+				<button class="btn-glass-effect py-2 px-4 rounded transition">
+					<img
+						src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"
+						srcset="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg 2x, https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg 3x"
+						width="20"
+						height="15"
+						alt="AWS"
+					/>
+				</button>
+
+				<button class="btn-glass-effect py-2 px-4 rounded transition">
+					<img
+						src="https://www.svgrepo.com/show/448223/gcp.svg"
+						srcset="https://www.svgrepo.com/show/448223/gcp.svg 2x, https://www.svgrepo.com/show/448223/gcp.svg"
+						width="20"
+						height="15"
+						alt="GCP"
+					/>
+				</button>
+			</div>
+			{#if responseData}
+				<div class="buttons-panel rounded">
+					<button
+						onclick="window.open('{googleSearchUrl}', '_blank')"
+						class=" btn-glass-effect py-2 px-4 rounded transition"
+					>
+						<img
+							src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
+							alt="Google Logo"
+							width="20"
+							height="15"
+						/>
+					</button>
+					<button
+						onclick="window.open('{duckduckGoSearchUrl}', '_blank')"
+						class="btn-glass-effect py-2 px-4 rounded transition"
+					>
+						<img
+							src="https://handwiki.org/wiki/images/8/88/DuckDuckGo_logo.svg"
+							alt="DuckDuckGo Logo"
+							width="20"
+							height="15"
+						/>
+					</button>
+					<button
+						onclick="window.open('{youComSearchUrl}', '_blank')"
+						class="btn-glass-effect py-2 px-4 rounded transitiont"
+					>
+						<img
+							src="https://you.com/images/ydc-logo-lightdarkmode.svg"
+							alt="You.com Logo"
+							width="20"
+							height="15"
+						/>
+					</button>
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				</div>
+				<div class="buttons-panel">
+					<button class="btn-glass-effect py-2 px-4 rounded transition">
+						<img
+							src="https://you.com/images/ydc-logo-lightdarkmode.svg"
+							alt="You.com Logo"
+							width="20"
+							height="15"
+						/>
+					</button>
+					<button class="btn-glass-effect py-2 px-4 rounded transition">
+						<img
+							src="https://you.com/images/ydc-logo-lightdarkmode.svg"
+							alt="You.com Logo"
+							width="20"
+							height="15"
+						/>
+					</button>
+					<button class="btn-glass-effect py-2 px-4 rounded transition">
+						<img
+							src="https://you.com/images/ydc-logo-lightdarkmode.svg"
+							alt="You.com Logo"
+							width="20"
+							height="15"
+						/>
+					</button>
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+					<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				</div>
+			{/if}
+			<div class="right-buttons-panel rounded pt-5">
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+				<button class="btn-glass-effect py-2 px-4 rounded transition" />
+			</div>
+		</div>
 	</div>
 </main>
 
@@ -436,16 +639,13 @@
 	}
 
 	.left-buttons-panel,
+	.buttons-panel,
 	.right-buttons-panel {
 		display: grid;
-		grid-template-columns: repeat(5, 1fr); /* change 3 to the number of columns you want */
+		grid-template-columns: repeat(3, 3fr); /* change 3 to the number of columns you want */
 		gap: 10px;
 	}
 
-	.button-container {
-		display: flex;
-		justify-content: space-between;
-	}
 	.ps-font {
 		font-family: 'Press Start 2P', cursive;
 	}
